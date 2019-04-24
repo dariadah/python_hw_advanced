@@ -2,6 +2,7 @@ from django.conf import settings
 from django.core.cache import cache
 from django.shortcuts import redirect, render
 from django.urls import path
+from urllib.parse import urlparse
 
 
 
